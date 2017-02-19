@@ -157,6 +157,7 @@ PalletTownTextPointers:
 	dw PalletTownText6
 	dw PalletTownText7
 	dw PalletTownText8
+	dw PalletTownText9
 
 PalletTownText1:
 	TX_ASM
@@ -216,4 +217,8 @@ PalletTownText7: ; sign by Blue’s house
 
 PalletTownText8: ; new NPC
 	TX_FAR _PalletTownText8
+	db "@"
+
+PalletTownText9: ; new sign
+	TX_FAR _PalletTownText9
 	db "@"

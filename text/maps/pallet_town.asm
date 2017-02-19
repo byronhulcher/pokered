@@ -59,3 +59,8 @@ _PalletTownText8:: ; new NPC
 	line "I didn't exist"
 	cont "before this hack."
 	done
+
+_PalletTownText9:: ; new sign
+	text "I'm a new sign!"
+	line "But I'm invisible"
+	done
