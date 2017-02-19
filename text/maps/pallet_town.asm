@@ -53,3 +53,9 @@ _PalletTownText6::
 _PalletTownText7::
 	text $53,"'s house "
 	done
+
+_PalletTownText8:: ; new NPC
+	text "I'm a new NPC!"
+	line "I didn't exist"
+	cont "before this hack."
+	done
