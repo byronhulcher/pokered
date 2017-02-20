@@ -679,6 +679,7 @@ Mon113_EvosMoves:
 ;Learnset
 	db 24,SING
 	db 30,GROWL
+	db 34,EGG_BOMB
 	db 38,MINIMIZE
 	db 44,DEFENSE_CURL
 	db 48,LIGHT_SCREEN
