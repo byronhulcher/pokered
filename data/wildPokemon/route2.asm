@@ -4,7 +4,7 @@ Route2Mons:
 	db 3,PIDGEY
 	db 4,PIDGEY
 	db 4,RATTATA
-	db 5,PIDGEY
+	db 5,SQUIRTLE
 	if DEF(_RED)
 		db 3,WEEDLE
 	ENDC

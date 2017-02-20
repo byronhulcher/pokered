@@ -20,6 +20,6 @@ ForestMons:
 		db 4,KAKUNA
 		db 3,WEEDLE
 	ENDC
-	db 3,PIKACHU
-	db 5,PIKACHU
+	db 3,BULBASAUR
+	db 5,BULBASAUR
 	db $00
