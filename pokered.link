@@ -48,7 +48,6 @@ ROMX $A
   "Battle (bank A)"
 
 ROMX $B
-  "Pics 3" ; PICS_3
   "Battle (bank B)"
 
 ROMX $C
@@ -56,7 +55,6 @@ ROMX $C
   "Battle (bank C)"
 
 ROMX $D
-  "Pics 5" ; PICS_5
   "Battle (bank D)"
 
 ROMX $E
@@ -155,6 +153,13 @@ ROMX $2B
 
 ROMX $2C
   "Move Names" ; MOVE_NAMES
+
+
+ROMX $2D
+  "Pics 3" ; PICS_3
+
+ROMX $2E
+  "Pics 5" ; PICS_5
 
 WRAM0
   "WRAM Bank 0"

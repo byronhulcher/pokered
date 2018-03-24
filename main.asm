@@ -7,9 +7,9 @@ GFX EQU $4
 
 PICS_1 EQU $9
 PICS_2 EQU $A
-PICS_3 EQU $B
+PICS_3 EQU $2D
 PICS_4 EQU $C
-PICS_5 EQU $D
+PICS_5 EQU $2E
 
 INCLUDE "home.asm"
 
@@ -190,7 +190,7 @@ INCLUDE "engine/overworld/is_player_just_outside_map.asm"
 INCLUDE "engine/menu/status_screen.asm"
 INCLUDE "engine/menu/party_menu.asm"
 
-RedPicFront:: INCBIN "pic/trainer/red.pic"
+RedPicFront:: INCBIN "pic/ytrainer/red.pic"
 ShrinkPic1::  INCBIN "pic/trainer/shrink1.pic"
 ShrinkPic2::  INCBIN "pic/trainer/shrink2.pic"
 
@@ -730,7 +730,7 @@ BeedrillPicBack::     INCBIN "pic/monback/beedrillb.pic"
 FossilKabutopsPic::   INCBIN "pic/bmon/fossilkabutops.pic"
 
 
-SECTION "Battle (bank B)", ROMX, BANK[$B]
+SECTION "Battle (bank B)", ROMX
 
 INCLUDE "engine/battle/display_effectiveness.asm"
 
@@ -1272,7 +1272,7 @@ JugglerPic::       INCBIN "pic/trainer/juggler.pic"
 TamerPic::         INCBIN "pic/trainer/tamer.pic"
 BirdKeeperPic::    INCBIN "pic/trainer/birdkeeper.pic"
 BlackbeltPic::     INCBIN "pic/trainer/blackbelt.pic"
-Rival1Pic::        INCBIN "pic/trainer/rival1.pic"
+Rival1Pic::        INCBIN "pic/ytrainer/rival1.pic"
 ProfOakPic::       INCBIN "pic/trainer/prof.oak.pic"
 ChiefPic::
 ScientistPic::     INCBIN "pic/trainer/scientist.pic"
@@ -1281,16 +1281,16 @@ RocketPic::        INCBIN "pic/trainer/rocket.pic"
 CooltrainerMPic::  INCBIN "pic/trainer/cooltrainerm.pic"
 CooltrainerFPic::  INCBIN "pic/trainer/cooltrainerf.pic"
 BrunoPic::         INCBIN "pic/trainer/bruno.pic"
-BrockPic::         INCBIN "pic/trainer/brock.pic"
-MistyPic::         INCBIN "pic/trainer/misty.pic"
+BrockPic::         INCBIN "pic/ytrainer/brock.pic"
+MistyPic::         INCBIN "pic/ytrainer/misty.pic"
 LtSurgePic::       INCBIN "pic/trainer/lt.surge.pic"
-ErikaPic::         INCBIN "pic/trainer/erika.pic"
+ErikaPic::         INCBIN "pic/ytrainer/erika.pic"
 KogaPic::          INCBIN "pic/trainer/koga.pic"
 BlainePic::        INCBIN "pic/trainer/blaine.pic"
 SabrinaPic::       INCBIN "pic/trainer/sabrina.pic"
 GentlemanPic::     INCBIN "pic/trainer/gentleman.pic"
-Rival2Pic::        INCBIN "pic/trainer/rival2.pic"
-Rival3Pic::        INCBIN "pic/trainer/rival3.pic"
+Rival2Pic::        INCBIN "pic/ytrainer/rival2.pic"
+Rival3Pic::        INCBIN "pic/ytrainer/rival3.pic"
 LoreleiPic::       INCBIN "pic/trainer/lorelei.pic"
 ChannelerPic::     INCBIN "pic/trainer/channeler.pic"
 AgathaPic::        INCBIN "pic/trainer/agatha.pic"
